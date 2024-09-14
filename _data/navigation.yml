@@ -5,6 +5,7 @@
 # prevent it from being included in the site.
 
 main:
+  <!--
   - title: "Publications"
     url: /publications/
 
@@ -14,7 +15,6 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  <!--
   - title: "Portfolio"
     url: /portfolio/
     -->
