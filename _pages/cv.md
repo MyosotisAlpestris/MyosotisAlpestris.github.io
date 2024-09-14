@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Nankai University, 2023
+* Nankai University, 2023 --
 
 <!--
 Work experience
