@@ -13,9 +13,9 @@ Education
 ======
 * Nankai University, 2023
 
+<!--
 Work experience
 ======
-<!--
 * Spring 2024: Academic Pages Collaborator
   * Github University
   * Duties includes: Updates and improvements to template
