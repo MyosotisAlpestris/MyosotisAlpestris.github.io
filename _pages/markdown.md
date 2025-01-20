@@ -7,11 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 
-Geometry and Topology
-======
-  ---
-  [Differential Topology]('http://MyosotisAlpestris.github.io/files/differential_topology.pdf')
-  ---
+
 
 
 <!-- ## Locations of key files/directories
