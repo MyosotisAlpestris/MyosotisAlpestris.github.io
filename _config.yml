@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-title                    : "Your Name / Site Title"
+title                    : "観铃 / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
