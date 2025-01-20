@@ -11,7 +11,5 @@ redirect_from:
 
 Differential Topology
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  permalink:/notes/differential_topology.md
   
