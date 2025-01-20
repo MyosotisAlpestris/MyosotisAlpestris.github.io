@@ -9,7 +9,7 @@ redirect_from:
 
 I'm a second year undergraduate student from [School of Mathematical Sciences](http://en.math.nankai.edu.cn/),[Nankai University](https://en.nankai.edu.cn/). My current interests are in geometry and topology.
 
-The following are some notes
+The following are some notes I wrote during my studies:
 
 Geometry and Topology
 ======
