@@ -11,5 +11,6 @@ redirect_from:
 
 Differential Topology
 ======
+  ---
   permalink:/notes/differential_topology.md
-  
+  ---
