@@ -12,5 +12,5 @@ redirect_from:
 Differential Topology
 ======
   ---
-  permalink:/notes/differential_topology.md
+  'http://MyosotisAlpestris.github.io/files/differential_topology.pdf'
   ---
