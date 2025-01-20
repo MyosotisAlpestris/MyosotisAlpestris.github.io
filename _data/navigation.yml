@@ -22,9 +22,12 @@ main:
         
   # - title: "Blog Posts"
   #  url: /year-archive/
+
+    - title: "Guide"
+    url: /markdown/
+
     
   - title: "CV"
     url: /cv/
     
-  # - title: "Guide"
-  #  url: /markdown/
+  
