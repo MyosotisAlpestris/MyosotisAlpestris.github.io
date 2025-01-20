@@ -12,7 +12,7 @@ title                    : "Myosotis Alpestris / Misuzu"
 title_separator          : "-"
 name                     : &name "Misuzu"
 description              : &description "the 1000th summer"
-url                      : https://github.com/MyosotisAlpestris/MyosotisAlpestris.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://MyosotisAlpestris.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MyosotisAlpestris/MyosotisAlpestris.github.io"
 
