@@ -23,20 +23,20 @@ Courses Taken and Discussion Classes
 ------
 
 ### Fall 2024
-* **Mathematical Analysis III**
-* **Abstract Algebra**
-* **Elementary Algebraic Topology**
-* **Complex Analysis**
-* **Ordinary Differential Equation**
+* **Mathematical Analysis III** 李佳傲
+* **Abstract Algebra** (自修) 王秀玲
+* **Elementary Algebraic Topology** Binbin Xu
+* **Complex Analysis** 高泳昕
+* **Ordinary Differential Equation** 马世旺
 
 ### Spring 2024
-* **General Topology**
-* **Mathematical Analysis II**
-* **Advanced Algebra and Analytic Geometry 2-2**
+* **General Topology** GAO SU
+* **Mathematical Analysis II** 王龙敏
+* **Advanced Algebra and Analytic Geometry 2-2** 耿薇
 
 ### Fall 2023
-* **Mathematical Analysis I**
-* **Advanced Algebra and Analytic Geometry 2-1**
+* **Mathematical Analysis I** 王龙敏
+* **Advanced Algebra and Analytic Geometry 2-1** 耿薇
 
 
 
