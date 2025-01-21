@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Here is **Yuxuan Liu**.
+Here is **Yuxuan Liu (刘宇轩)**.
 
 I am an undergraduate student of the 2023 class at the [School of Mathematical Sciences](http://en.math.nankai.edu.cn/),[Nankai University](https://en.nankai.edu.cn/). My current interests are in geometry and topology.
 
