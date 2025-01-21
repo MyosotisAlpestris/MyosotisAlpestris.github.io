@@ -30,7 +30,7 @@ Courses Taken and Discussion Classes
 * **Ordinary Differential Equation** 马世旺
 
 ### Spring 2024
-* **General Topology** GAO SU
+* **General Topology** 高速
 * **Mathematical Analysis II** 王龙敏
 * **Advanced Algebra and Analytic Geometry 2-2** 耿薇
 
