@@ -13,4 +13,4 @@ Geometry and Topology
 ------
 
 * ### Differential Topology
-    * This is the note I took while studying [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo).
+    * This is the [note](http://MyosotisAlpestris.github.io/files/differential_topology.pdf) (Updating) I took while studying [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo).
