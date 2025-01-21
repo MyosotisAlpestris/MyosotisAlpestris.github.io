@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ------
-* 2023.09 -- Present `Nankai University`
-* 2020.09 -- 2023.06 `Ganzhou No.3 Middle School`
+* 2023.09 -- Present <u>Nankai University</u>
+* 2020.09 -- 2023.06 <u>Ganzhou No.3 Middle School</u>
 
 Award Record
 ------
