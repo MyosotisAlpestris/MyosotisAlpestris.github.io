@@ -12,5 +12,5 @@ redirect_from:
 Geometry and Topology
 ------
 
->* [Differential Topology](http://MyosotisAlpestris.github.io/files/differential_topology.pdf)
+> * [Differential Topology](http://MyosotisAlpestris.github.io/files/differential_topology.pdf)
 > This is 
