@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-title                    : "Myosotis Alpestris / Misuzu"
+title                    : "Misuzu's Homepage"
 title_separator          : "-"
 name                     : &name "Misuzu"
 description              : &description "the 1000th summer"
@@ -28,7 +28,7 @@ author:
   location         : "Earth"
   employer         : "Nankai University"
   uri              : # URL
-  email            : "ngc3545106377@qq.com" 
+  # email            : "ngc3545106377@qq.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
