@@ -12,5 +12,5 @@ redirect_from:
 Geometry and Topology
 ------
 
-### [Differential Topology](http://MyosotisAlpestris.github.io/files/differential_topology.pdf) (Updating)
+### [* Differential Topology](http://MyosotisAlpestris.github.io/files/differential_topology.pdf) (Updating)
 > This is the note I took while studying [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo).
