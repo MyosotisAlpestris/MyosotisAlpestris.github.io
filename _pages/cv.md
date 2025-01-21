@@ -16,7 +16,8 @@ Education
 
 Award Record
 ------
-Empty
+
+* **First Prize** in the Provincial Round of the **2022** National High School Physics Competition, ranked **33rd** in Jiangxi Province.
 
 Courses Taken and Discussion Classes
 ------
