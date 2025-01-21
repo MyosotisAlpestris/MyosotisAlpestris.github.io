@@ -13,7 +13,7 @@ I am an undergraduate student of the 2023 class at the [School of Mathematical S
 
 **QQ** : 3545106377
 
-**Zhihu** : [Teikan](https://www.zhihu.com/people/jing-jie-xian-66)
+**Zhihu** : [諦観](https://www.zhihu.com/people/jing-jie-xian-66)
 
 **Email** : ngc3545106377@gmail.com
 
