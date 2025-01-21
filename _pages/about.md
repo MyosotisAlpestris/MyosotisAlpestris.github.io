@@ -20,7 +20,7 @@ I am an undergraduate student of the 2023 class at the [School of Mathematical S
 **MBTI** : INFJ
 
 
->If you believe that any content on this website infringes upon your rights or violates any applicable laws, please contact me directly so that we >can resolve the issue. You can reach me at:
+>If you believe that any content on this website infringes upon your rights or violates any applicable laws, please contact me directly so that we can resolve the issue. You can reach me at:
 >
 >**Email**: ngc3545106377@gmail.com ; **QQ**: 3545106377
 >
