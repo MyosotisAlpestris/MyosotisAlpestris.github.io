@@ -13,5 +13,4 @@ Geometry and Topology
 ------
 
 > * [Differential Topology](http://MyosotisAlpestris.github.io/files/differential_topology.pdf)
-
-> This is 
+> This is
