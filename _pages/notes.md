@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+This page collects some of my notes.
+
 Geometry and Topology
 ------
 
