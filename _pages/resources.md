@@ -12,7 +12,7 @@ redirect_from:
 This page collects some learning resources that I find good.
 
 Websites
-======
+------
 
 Cources
-======
+------
