@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<u>**This page collects some of my notes.**</u>
+**<u>This page collects some of my notes.</u>**
 
 Geometry and Topology
 ------
