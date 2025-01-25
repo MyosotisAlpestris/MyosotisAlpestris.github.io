@@ -11,4 +11,6 @@ redirect_from:
 
 **<u>This page collects links to other resources with a lot of learning materials.</u>**
 
-* **[孙天阳的个人主页](https://tysunseven.github.io/)** 有许多科大的学习资源
+* **[孙天阳的个人主页](https://tysunseven.github.io/)**, this page includes a variety of course resources from USTC.
+* **[Kai Zhu's Personal Homepage](https://mmkaymath.github.io/KaiZhu2003.github.io/)**, the personal homepage of one of my outstanding seniors.
+* **[BIMSA Course](https://bimsa.net:10000/course.php)**.
