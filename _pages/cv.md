@@ -40,6 +40,6 @@ Courses Taken and Discussion Classes
 
 Online Courses
 ------
-* **[Basics of Differential Geometry](https://bimsa.net:10000/activity/Basofdifgeo/)** from [BIMSA](https://www.bimsa.cn/), lecturer: Kotaro Kawai
+* **[Basics of Differential Geometry](https://bimsa.net:10000/activity/Basofdifgeo/)**, lecturer: Kotaro Kawai
 * **[Differential Topology](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo)**, professor: Vinicius Ramos
 * **[微分流形](https://tysunseven.github.io/video/Manifolds%202023F.html)**, 授课老师: 王作勤
