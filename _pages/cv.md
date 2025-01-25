@@ -38,8 +38,12 @@ Courses Taken and Discussion Classes
 * **Mathematical Analysis I** 王龙敏
 * **Advanced Algebra and Analytic Geometry 2-1** 耿薇
 
-Online Courses
+Online Courses Taken
 ------
+
+### Winter Break 2024
 * **[Basics of Differential Geometry](https://bimsa.net:10000/activity/Basofdifgeo/)**, lecturer: Kotaro Kawai
 * **[Differential Topology](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo)**, professor: Vinicius Ramos
+
+### Spring 2024
 * **[微分流形](https://tysunseven.github.io/video/Manifolds%202023F.html)**, 授课老师: 王作勤
