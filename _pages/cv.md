@@ -38,6 +38,8 @@ Courses Taken and Discussion Classes
 * **Mathematical Analysis I** 王龙敏
 * **Advanced Algebra and Analytic Geometry 2-1** 耿薇
 
-
+Online Courses
+------
+* **[Basics of Differential Geometry](https://bimsa.net:10000/activity/Basofdifgeo/)** from [BIMSA](https://www.bimsa.cn/), lecturer: Kotaro Kawai
 
 
