@@ -9,10 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-This page collects some learning resources that I find good.
+**<u>This page collects links to other resources with a lot of learning materials.</u>**
 
-Websites
-------
-
-Cources
-------
+* **[孙天阳的个人主页](https://tysunseven.github.io/)** 有许多科大的学习资源
