@@ -9,8 +9,7 @@ redirect_from:
 
 Here is **Yuxuan Liu (刘宇轩)**.
 
-I am an undergraduate student of the 2023 class at the [School of Mathematical Sciences](http://en.math.nankai.edu.cn/),[Nankai University](https://en.nankai.edu.cn/). My current interests are in geometry and topology.
-
+I am an undergraduate student of the 2023 class at the [School of Mathematical Sciences](http://en.math.nankai.edu.cn/),[Nankai University](https://en.nankai.edu.cn/). My current academic interests are in geometry and topology. Outside of my academic pursuits, I also enjoy sports such as table tennis, volleyball, and badminton. In addition to sports, I also appreciate rhythm games and bullet-hell games like Arcaea and Touhou Project.
 **QQ** : 3545106377
 
 **Zhihu** : [諦観](https://www.zhihu.com/people/jing-jie-xian-66)
