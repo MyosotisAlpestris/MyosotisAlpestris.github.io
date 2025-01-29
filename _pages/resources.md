@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-**<u>This page collects links to other resources with a lot of learning materials.</u>**
+**<u>This page collects some useful links.</u>**
 
 * **[孙天阳的个人主页](https://tysunseven.github.io/)**, this page includes a variety of course resources from USTC.
 * **[Kai Zhu's Personal Homepage](https://mmkaymath.github.io/KaiZhu2003.github.io/)**, the personal homepage of one of my outstanding seniors.
