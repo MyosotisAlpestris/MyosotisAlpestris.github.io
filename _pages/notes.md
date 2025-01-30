@@ -15,4 +15,7 @@ Geometry and Topology
 ------
 
 * ### Differential Topology
-    * This is the [note](http://MyosotisAlpestris.github.io/files/differential_topology.pdf) (updating) I took while studying [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo).
+    * This is the [note](http://MyosotisAlpestris.github.io/files/differential_topology.pdf) I took while studying [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo).
+
+* ### Algebraic Topology
+    * This is the handwriting note about spectral sequence, taken during [this cource](https://cloverm.folk.ntnu.no/237Spring2020.html).
