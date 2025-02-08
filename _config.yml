@@ -379,3 +379,11 @@ gitalk:
   owner: "MyosotisAlpestris"  # 你的 GitHub 用户名
   admin:
     - "MyosotisAlpestris"  # 需要管理评论的 GitHub 用户名
+
+  id: "location.pathname"  # 页面唯一 id
+    labels: ["gitalk"]  # GitHub issue 标签，应该是列表
+    perPage: 15  # 每页显示评论数，最大 100
+    pagerDirection: "last"  # 评论排序方向，可选 "last" 或 "first"
+    createIssueManually: false  # 是否需要管理员手动创建 Issue
+    distractionFreeMode: false  # 是否启用快捷键 (Cmd/Ctrl + Enter 提交评论)
+
