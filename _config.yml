@@ -358,7 +358,7 @@ params:
   gitalk:
     clientID: "Ov23lihReHs2QCc2nXBO"  # [Client ID] 替换成你的 Client ID
     clientSecret: "aef9659b8ce57e67e52343d093797696abe1a36a"  # [Client Secret] 替换成你的 Client Secret
-    repo: "https://github.com/MyosotisAlpestris/MyosotisAlpestris.github.io"  # 你的 GitHub 仓库（不是主页，应填具体的 repo 名称）
+    repo: "MyosotisAlpestris/MyosotisAlpestris.github.io"  # 你的 GitHub 仓库（不是主页，应填具体的 repo 名称）
     owner: "MyosotisAlpestris"  # 你的 GitHub ID
     admin:  
       - "MyosotisAlpestris"  # 必须是列表格式，确保写权限用户正确
