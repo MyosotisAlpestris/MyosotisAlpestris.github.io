@@ -363,7 +363,7 @@ params:
     admin:
       - "MyosotisAlpestris"  # 必须是列表格式，确保写权限用户正确
 
-    id: "https://myosotisalpestris.github.io/"  # 页面唯一 id
+    id: "location.pathname"  # 页面唯一 id
     labels: ["gitalk"]  # GitHub issue 标签，应该是列表
     perPage: 15  # 每页显示评论数，最大 100
     pagerDirection: "last"  # 评论排序方向，可选 "last" 或 "first"
