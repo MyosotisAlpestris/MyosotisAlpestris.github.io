@@ -9,11 +9,11 @@
 
 <script>
   const gitalk = new Gitalk({
-    clientID: '{{ .Site.Params.gitalk.clientID }}',
-    clientSecret: '{{ .Site.Params.gitalk.clientSecret }}',
-    repo: '{{ .Site.Params.gitalk.repo }}',
-    owner: '{{ .Site.Params.gitalk.owner }}',
-    admin: {{ .Site.Params.gitalk.admin }},
+    clientID: 'Ov23lihReHs2QCc2nXBO',
+    clientSecret: 'aef9659b8ce57e67e52343d093797696abe1a36a',
+    repo: 'MyosotisAlpestris.github.io',  
+    owner: 'MyosotisAlpestris',
+    admin: MyosotisAlpestris,
     id: md5(location.pathname).substr(0, 49), // 确保唯一性且符合 GitHub Issue 限制
     distractionFreeMode: false // 关闭无干扰模式
   });
