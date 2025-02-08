@@ -356,11 +356,11 @@ compress_html:
 [params]
   enableGitalk = true
 [params.gitalk]  
-    clientID = "[Client ID]" # [Client ID] 替换成你的Client ID
-    clientSecret = "[Client Secret]" # [Client Secret] 替换成你的Client Secret
-    repo = "{git-username}.github.io" # 你的Github个人主页
-    owner = "{git-username}" # 你的 GitHub ID
-    admin= "{git-username}" # Required. GitHub ID. Github repository owner and collaborators. (Users who having write access to this repository)
+    clientID = "Ov23lihReHs2QCc2nXBO" # [Client ID] 替换成你的Client ID
+    clientSecret = "aef9659b8ce57e67e52343d093797696abe1a36a" # [Client Secret] 替换成你的Client Secret
+    repo = "https://myosotisalpestris.github.io/" # 你的Github个人主页
+    owner = "MyosotisAlpestris" # 你的 GitHub ID
+    admin= "MyosotisAlpestris" # Required. GitHub ID. Github repository owner and collaborators. (Users who having write access to this repository)
     
     id= "location.pathname" # The unique id of the page.
     labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
