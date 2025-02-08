@@ -37,11 +37,11 @@ I am an undergraduate student of the 2023 class at the [School of Mathematical S
 
 <script>
   const gitalk = new Gitalk({
-    clientID: '{{ .Site.Params.gitalk.clientID }}',
-    clientSecret: '{{ .Site.Params.gitalk.clientSecret }}',
-    repo: '{{ .Site.Params.gitalk.repo }}',
-    owner: '{{ .Site.Params.gitalk.owner }}',
-    admin: ['{{ .Site.Params.gitalk.owner }}'],
+    clientID: '{{ site.params.gitalk.clientID }}',
+    clientSecret: '{{ site.params.gitalk.clientSecret }}',
+    repo: '{{ site.params.gitalk.repo }}',
+    owner: '{{ site.params.gitalk.owner }}',
+    admin: ['{{ site.params.gitalk.owner }}'],
     id: md5(location.pathname).substr(0, 49), // 页面唯一 ID
     distractionFreeMode: false
   });
