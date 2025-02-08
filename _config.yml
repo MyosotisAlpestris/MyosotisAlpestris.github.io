@@ -352,19 +352,20 @@ compress_html:
   ignore:
     envs: development
 
-##下面的参数主要是在gitalk.html会用到。通过.Site.Params.xxx获取
-[params]
-  enableGitalk = true
-[params.gitalk]  
-    clientID = "Ov23lihReHs2QCc2nXBO" # [Client ID] 替换成你的Client ID
-    clientSecret = "aef9659b8ce57e67e52343d093797696abe1a36a" # [Client Secret] 替换成你的Client Secret
-    repo = "https://myosotisalpestris.github.io/" # 你的Github个人主页
-    owner = "MyosotisAlpestris" # 你的 GitHub ID
-    admin= "MyosotisAlpestris" # Required. GitHub ID. Github repository owner and collaborators. (Users who having write access to this repository)
-    
-    id= "location.pathname" # The unique id of the page.
-    labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
-    perPage= 15 # Pagination size, with maximum 100.
-    pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
-    createIssueManually= false # If it is 'false', it is auto to make a Github issue when the administrators login.
-    distractionFreeMode= false # Enable hot key (cmd|ctrl + enter) submit comment
+# 下面的参数主要在 gitalk.html 会用到
+params:
+  enableGitalk: true
+  gitalk:
+    clientID: "Ov23lihReHs2QCc2nXBO"  # [Client ID] 替换成你的 Client ID
+    clientSecret: "aef9659b8ce57e67e52343d093797696abe1a36a"  # [Client Secret] 替换成你的 Client Secret
+    repo: "https://github.com/MyosotisAlpestris/MyosotisAlpestris.github.io"  # 你的 GitHub 仓库（不是主页，应填具体的 repo 名称）
+    owner: "MyosotisAlpestris"  # 你的 GitHub ID
+    admin:  
+      - "MyosotisAlpestris"  # 必须是列表格式，确保写权限用户正确
+
+    id: "location.pathname"  # 页面唯一 id
+    labels: ["gitalk"]  # GitHub issue 标签，应该是列表
+    perPage: 15  # 每页显示评论数，最大 100
+    pagerDirection: "last"  # 评论排序方向，可选 "last" 或 "first"
+    createIssueManually: false  # 是否需要管理员手动创建 Issue
+    distractionFreeMode: false  # 是否启用快捷键 (Cmd/Ctrl + Enter 提交评论)
