@@ -372,18 +372,3 @@ params:
 
 comments:
   provider: "gitalk"  # 启用 Gitalk 评论系统
-gitalk:
-  clientID: "Ov23lihReHs2QCc2nXBO"  # 从 GitHub OAuth 获取
-  clientSecret: "aef9659b8ce57e67e52343d093797696abe1a36a"  # 从 GitHub OAuth 获取
-  repo: "MyosotisAlpestris/MyosotisAlpestris.github.io"  # 你的 GitHub 仓库名称
-  owner: "MyosotisAlpestris"  # 你的 GitHub 用户名
-  admin:
-    - "MyosotisAlpestris"  # 需要管理评论的 GitHub 用户名
-
-  id: "location.pathname"  # 页面唯一 id
-  labels: ["gitalk"]  # GitHub issue 标签，应该是列表
-  perPage: 15  # 每页显示评论数，最大 100
-  pagerDirection: "last"  # 评论排序方向，可选 "last" 或 "first"
-  createIssueManually: false  # 是否需要管理员手动创建 Issue
-  distractionFreeMode: false  # 是否启用快捷键 (Cmd/Ctrl + Enter 提交评论)
-
