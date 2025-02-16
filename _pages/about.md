@@ -5,7 +5,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-comments: true
 ---
 
 Here is **Yuxuan Liu (刘宇轩)**.
