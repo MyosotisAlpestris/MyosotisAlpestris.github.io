@@ -26,32 +26,20 @@ I am an undergraduate student of the 2023 class at the [School of Mathematical S
 >
 >I will review your concern as soon as possible and take appropriate action.
 
-<!-- 这里插入 Gitalk 评论区域 -->
-<div id="gitalk-container"></div>
-
-<!-- Gitalk 样式 -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script>
-
-<script>
-  const gitalk = new Gitalk({
-    clientID: '{{ site.params.gitalk.clientID }}',
-    clientSecret: '{{ site.params.gitalk.clientSecret }}',
-    repo: '{{ site.params.gitalk.repo }}',
-    owner: '{{ site.params.gitalk.owner }}',
-    admin: ['{{ site.params.gitalk.owner }}'],
-    id: md5(location.pathname).substr(0, 49), // 页面唯一 ID
-    distractionFreeMode: false
-  });
-
-  (function() {
-    if (["localhost", "127.0.0.1"].includes(window.location.hostname)) {
-      console.warn("Gitalk is disabled in local preview mode.");
-    } else {
-      gitalk.render('gitalk-container');
-    }
-  })();
+<script src="https://giscus.app/client.js"
+        data-repo="MyosotisAlpestris/MyosotisAlpestris.github.io"
+        data-repo-id="R_kgDONsq8tg"
+        data-category="Comments"
+        data-category-id="DIC_kwDONsq8ts4CnBA1"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>
 
 <!--This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
