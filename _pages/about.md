@@ -26,21 +26,6 @@ I am an undergraduate student of the 2023 class at the [School of Mathematical S
 >
 >I will review your concern as soon as possible and take appropriate action.
 
-<script src="https://giscus.app/client.js"
-        data-repo="MyosotisAlpestris/MyosotisAlpestris.github.io"
-        data-repo-id="R_kgDONsq8tg"
-        data-category="Comments"
-        data-category-id="DIC_kwDONsq8ts4CnBA1"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
 
 <!--This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
