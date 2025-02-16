@@ -27,7 +27,7 @@ Courses Taken and Discussion Classes
 * **Abstract Algebra** (自修) 王秀玲
 * **Elementary Algebraic Topology** Binbin Xu
 * **Complex Analysis** 高泳昕
-* **Ordinary Differential Equation** 马世旺
+* **Ordinary Differential Equationsss** 马世旺
 
 ### Spring 2024
 * **General Topology** 高速
