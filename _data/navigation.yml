@@ -30,5 +30,8 @@ main:
     url: /notes/
 
   - title: "Resources"  
-    url: /resources/
+    url: /resources/     
+
+  - title: "Comments"          
+    url: /comments/
 
