@@ -24,7 +24,7 @@ Courses Taken and Discussion Classes
 
 ### Spring 2025       
 
-##### Courses
+##### <u>Courses</u>          
 
 * **Lie Algebra** 王秀玲
 * **Riemannian Geometry and Topics in Geometric Analysis** 王文龙
@@ -33,7 +33,8 @@ Courses Taken and Discussion Classes
 * **Real Analysis** 吕福生
 * **Probability Theory** 江一鸣
 
-##### Discussion Classes            
+##### <u>Discussion Classes</u>
+
 * **Knot Theory** 徐彬斌
 
 
