@@ -22,6 +22,21 @@ Award Record
 Courses Taken and Discussion Classes
 ------
 
+### Spring 2025       
+
+##### Courses
+
+* **Lie Algebra** 王秀玲
+* **Riemannian Geometry and Topics in Geometric Analysis** 王文龙
+* **Commutative Algebra** 于世卓
+* **Symplectic Geometry** 文豪
+* **Real Analysis** 吕福生
+* **Probability Theory** 江一鸣
+
+##### Discussion Classes            
+* **Knot Theory** 徐彬斌
+
+
 ### Fall 2024
 * **Mathematical Analysis III** 李佳傲
 * **Abstract Algebra** (自修) 王秀玲
