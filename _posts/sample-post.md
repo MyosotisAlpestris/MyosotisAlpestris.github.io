@@ -1,15 +1,1 @@
----
-title: 'Sample Post'
-date: 2005-07-23
-permalink: /posts/2005/07/sample-post/
-tags:
-  - sample posts
-  - category1
-  - category2
----
 
-This is a sample blog post. 
-
-sample
-
-sample
