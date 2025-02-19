@@ -19,7 +19,7 @@ Award Record
 
 * **First Prize** in the Provincial Round of the **2022** National High School Physics Competition, ranked **33rd** in Jiangxi Province.
 
-Courses Taken and Discussion Classes
+Courses Taken and Seminars
 ------
 
 ### Spring 2025       
@@ -33,7 +33,7 @@ Courses Taken and Discussion Classes
 * **Real Analysis** 吕福生
 * **Probability Theory** 江一鸣
 
-##### <u>Discussion Classes</u>
+##### <u>Seminars</u>
 
 * **Knot Theory** 徐彬斌
 
