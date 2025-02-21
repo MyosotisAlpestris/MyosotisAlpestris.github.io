@@ -15,16 +15,16 @@ Geometry and Topology           
 ------
 
 * ### Differential Topology
-    * This is the [note](http://MyosotisAlpestris.github.io/files/differential_topology.pdf) I took while studying [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo).
+    * [Note](http://MyosotisAlpestris.github.io/files/differential_topology.pdf), based on [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo). 
 
 * ### Algebraic Topology
-    * This is the handwriting [note](https://pan.baidu.com/s/1io9GbM159PZfaht7DHzpjg?pwd=0723) about spectral sequence, taken during [this cource](https://cloverm.folk.ntnu.no/237Spring2020.html).
+    * This is the handwriting [note](https://pan.baidu.com/s/1io9GbM159PZfaht7DHzpjg?pwd=0723) about spectral sequence, based on [this cource](https://cloverm.folk.ntnu.no/237Spring2020.html).
 
 * ### Riemannian Geometry                  
     * This is my [solution](http://MyosotisAlpestris.github.io/files/Lee_Riem_Geo.pdf) to some problems in Lee's *Introduction to Riemannian Manifold*.
 
 * ### Differential Geometry      
-    * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) about principle bundles and characteristic classes,  taken during [this course](https://bimsa.net:10000/activity/BasofdifgeoII/).
+    * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) about principle bundles and characteristic classes, based on [this course](https://bimsa.net:10000/activity/BasofdifgeoII/).
 
 
 
