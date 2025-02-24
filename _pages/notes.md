@@ -26,5 +26,8 @@ Geometry and Topology           
 * ### Differential Geometry      
     * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) about principle bundles and characteristic classes, based on [this course](https://bimsa.net:10000/activity/BasofdifgeoII/).
 
+* ### Symplectic Geometry      
+    * 这是我2025春季学期辛几何课程的[笔记](http://MyosotisAlpestris.github.io/files/symplectic_geo.pdf).
+
 
 
