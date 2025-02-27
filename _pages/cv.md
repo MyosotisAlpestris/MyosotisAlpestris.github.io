@@ -35,7 +35,7 @@ Courses Taken and Seminars
 
 ##### <u>Seminars</u> 
 
-* **Geometric Topology (Knot Theory & Hyperbolic Surface)** 徐彬斌
+* **Geometric Topology** (Knot Theory & Hyperbolic Surface) 徐彬斌
 
 ### Fall 2024
 * **Mathematical Analysis III** 李佳傲
