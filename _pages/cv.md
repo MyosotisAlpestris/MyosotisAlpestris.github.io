@@ -33,10 +33,9 @@ Courses Taken and Seminars
 * **Real Analysis** 吕福生
 * **Probability Theory** 江一鸣
 
-##### <u>Seminars</u>
+##### <u>Seminars</u> 
 
-* **Knot Theory** 徐彬斌
-
+* **Geometric Topology(Knot Theory & Hyperbolic Surface)** 徐彬斌
 
 ### Fall 2024
 * **Mathematical Analysis III** 李佳傲
