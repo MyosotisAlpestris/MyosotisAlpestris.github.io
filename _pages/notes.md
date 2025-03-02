@@ -29,5 +29,10 @@ Geometry and Topology           
 * ### Symplectic Geometry      
     * 这是我2025春季学期辛几何课程的[笔记](http://MyosotisAlpestris.github.io/files/symplectic_geo.pdf).
 
+* ### Lie Groups and Lie Algebras
+    * This is the [homework solution](http://MyosotisAlpestris.github.io/files/Lie_Alg.pdf) for my Lie Algebras course in the Spring 2025 semester.
+
+
+
 
 
