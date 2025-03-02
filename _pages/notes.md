@@ -21,7 +21,7 @@ Geometry and Topology           
     * This is the handwriting [note](https://pan.baidu.com/s/1io9GbM159PZfaht7DHzpjg?pwd=0723) about spectral sequence, based on [this cource](https://cloverm.folk.ntnu.no/237Spring2020.html).
 
 * ### Riemannian Geometry                  
-    * This is my [solution](http://MyosotisAlpestris.github.io/files/Lee_Riem_Geo.pdf) to some problems in Lee's *Introduction to Riemannian Manifold*.
+    * This is my [solution](http://MyosotisAlpestris.github.io/files/Lee_Riem_Geo.pdf) for some problems in Lee's *Introduction to Riemannian Manifold*.
 
 * ### Differential Geometry      
     * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) about principle bundles and characteristic classes, based on [this course](https://bimsa.net:10000/activity/BasofdifgeoII/).
