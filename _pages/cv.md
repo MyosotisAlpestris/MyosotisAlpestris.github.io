@@ -17,7 +17,11 @@ Education
 Award Record
 ------
 
-* **First Prize** in the Provincial Round of the **2022** National High School Physics Competition, ranked **33rd** in Jiangxi Province.
+* **2024**年获得陈省身智德奖学金.  
+
+* **2022**年全国中学生物理竞赛复赛一等奖, 江西省排33.
+
+
 
 Courses Taken and Seminars
 ------
