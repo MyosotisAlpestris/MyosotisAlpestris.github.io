@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-title                    : "Misuzu's Homepage"
-title_separator          : "-"
-name                     : &name "Misuzu"
+title                    : "Yuxuan Liu's Homepage"
+title_separator          : "-" 
+name                     : &name "Yuxuan Liu"
 description              : &description "the 1000th summer"
 url                      : https://MyosotisAlpestris.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
