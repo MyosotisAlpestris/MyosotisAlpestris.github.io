@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %} 
 
+
 **<u>This page collects some useful links.</u>**
 
 * **[孙天阳的个人主页](https://tysunseven.github.io/)**, this page includes a variety of course resources from USTC.
@@ -19,6 +20,7 @@ redirect_from:
 * **[csdiy.wiki](https://csdiy.wiki/en/)**, this is a self-learning guide to computer science.
 
 * **[Aareyan Manzoor's website](https://aareyanmanzoor.github.io/)**, here containes some classic book retypesetting with LaTeX. 
+
 
 ------
 
