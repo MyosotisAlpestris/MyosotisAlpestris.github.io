@@ -25,4 +25,3 @@ redirect_from: 
 ------
 
 * **[Gereon Quick](https://gereonq.folk.ntnu.no/)**, this page contains excellent notes about differential topology and algebraic topology.
-* **[Haynes R. Miller](https://math.mit.edu/~hrm/)**.
