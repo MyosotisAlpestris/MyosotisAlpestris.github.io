@@ -63,7 +63,7 @@ Online Courses Taken
 ### Spring 2025               
 * **[Basics of Differential Geometry 2](https://bimsa.net:10000/activity/BasofdifgeoII/)**, lecturer: Kotaro Kawai
 * **[An Introduction to Homological Algebra](https://bimsa.net:10000/activity/AninttoHomAlg/)**, lecturer: Beihui Yuan
-* **[Morse Theory](https://bimsa.net:10000/activity/MorThe/)**, lecturer: Guillaume Tahar  
+
 
 
 
