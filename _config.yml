@@ -7,10 +7,11 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "zh-CN"   
 title                    : "朧千夏's Homepage"  
+
 title_separator          : "-"
-name                     : &name "Misuzu"
+name                     : &name "朧千夏" 
 description              : &description "the 1000th summer"
 url                      : "https://MyosotisAlpestris.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,10 +23,10 @@ repository               : "MyosotisAlpestris/MyosotisAlpestris.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "2.png"
-  name             : "朧千夏"
-  pronouns         : # example: "she/her"  
-  bio              : "the 1000th summer"
+  avatar: "2.png"
+  name: "朧千夏"
+  pronouns: # example: "she/her"  
+  bio: "the 1000th summer"
   location         : "Unkonwn"
   employer         : "Nankai University"
   uri              : # URL
