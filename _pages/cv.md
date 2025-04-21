@@ -32,7 +32,6 @@ Courses Taken and Seminars
 
 * **Lie Algebra** 王秀玲
 * **Riemannian Geometry and Topics in Geometric Analysis** 王文龙
-* **Commutative Algebra** 于世卓
 * **Symplectic Geometry** 文豪
 * **Real Analysis** 吕福生
 * **Probability Theory** 江一鸣
