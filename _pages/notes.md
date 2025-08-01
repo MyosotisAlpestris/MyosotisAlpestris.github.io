@@ -22,7 +22,7 @@ Geometry and Topology           
     * This is my [solution](http://MyosotisAlpestris.github.io/files/Lee_Riem_Geo.pdf) for some problems in Lee's *Introduction to Riemannian Manifold*.
 
 * ### Differential Geometry
-    * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) taken during the [course]() 
+    * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) taken during the [course](https://bimsa.net:10000/activity/BasofdifgeoII/), which is about principal bundles and characteristic classes.
 
 
 
