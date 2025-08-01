@@ -60,7 +60,7 @@ Online Courses Taken
 ------
 
 ### Summer Break 2025
-* **[Nearly K\''ahler Geometry](https://bimsa.net/activity/kahgeo/)**, lecturer: Kotaro Kawai
+* **[Nearly K\"{a}hler Geometry](https://bimsa.net/activity/kahgeo/)**, lecturer: Kotaro Kawai
 
 ### Spring 2025               
 * **[Basics of Differential Geometry 2](https://bimsa.net:10000/activity/BasofdifgeoII/)**, lecturer: Kotaro Kawai
