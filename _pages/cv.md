@@ -63,14 +63,14 @@ Online Courses Taken
 * **[Nearly K&auml;hler Geometry](https://bimsa.net/activity/kahgeo/)**, lecturer: Kotaro Kawai
 
 ### Spring 2025               
-* **[Basics of Differential Geometry 2](https://bimsa.net:10000/activity/BasofdifgeoII/)**, lecturer: Kotaro Kawai
-* **[An Introduction to Homological Algebra](https://bimsa.net:10000/activity/AninttoHomAlg/)**, lecturer: Beihui Yuan
+* **[Basics of Differential Geometry 2](https://bimsa.net/activity/BasofdifgeoII/)**, lecturer: Kotaro Kawai
+* **[An Introduction to Homological Algebra](https://bimsa.net/activity/AninttoHomAlg/)**, lecturer: Beihui Yuan
 
 
 
 
 ### Winter Break 2024
-* **[Basics of Differential Geometry](https://bimsa.net:10000/activity/Basofdifgeo/)**, lecturer: Kotaro Kawai
+* **[Basics of Differential Geometry](https://bimsa.net/activity/Basofdifgeo/)**, lecturer: Kotaro Kawai
 * **[Differential Topology](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo)**, professor: Vinicius Ramos
 
 ### Spring 2024
