@@ -23,6 +23,10 @@ Geometry and Topology           
 
 * ### Differential Geometry
     * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) taken during the [course](https://bimsa.net/activity/BasofdifgeoII/), which is about principal bundles and characteristic classes.
+ 
+
+Discussion with AI
+------
 
 
 
