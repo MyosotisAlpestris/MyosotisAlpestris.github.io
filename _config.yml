@@ -354,4 +354,5 @@ compress_html:
     envs: development
 
 markdown: kramdown
+mathjax: true
 
