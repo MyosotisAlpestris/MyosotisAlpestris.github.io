@@ -17,7 +17,9 @@ redirect_from:
 * **[BIMSA Course](https://bimsa.net:10000/course.php)**.    
 * **[csdiy.wiki](https://csdiy.wiki/en/)**, this is a self-learning guide to computer science.
 
-* **[Aareyan Manzoor's website](https://aareyanmanzoor.github.io/)**, here containes some classic book retypesetting with LaTeX. 
+* **[Aareyan Manzoor's website](https://aareyanmanzoor.github.io/)**, here containes some classic book retypesetting with LaTeX.
+
+* **[q.uiver](https://q.uiver.app/)**, great website to draw commutative diagrams.
 
 ------
 
