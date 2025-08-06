@@ -15,14 +15,14 @@ I am an undergraduate student of the 2023 class at the [School of Mathematical S
 
 **Zhihu** : [朧千夏](https://www.zhihu.com/people/jing-jie-xian-66)
 
-**Email** : ngc3545106377@gmail.com
+**Email** : 17770737055@163.com
 
 **MBTI** : INFJ
 
 
 >If you believe that any content on this website infringes upon your rights or violates any applicable laws, please contact me directly so that we can resolve the issue. You can reach me at:
 >
->**Email**: ngc3545106377@gmail.com ; **QQ**: 3545106377
+>**Email**: 17770737055@163.com ; **QQ**: 3545106377
 >
 >I will review your concern as soon as possible and take appropriate action.
 
