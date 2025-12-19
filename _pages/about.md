@@ -9,7 +9,7 @@ redirect_from:
 
 Here is **Yuxuan Liu (刘宇轩)**.
 
-I am an undergraduate student of the 2023 class at the [School of Mathematical Sciences](http://en.math.nankai.edu.cn/),[Nankai University](https://en.nankai.edu.cn/). My current academic interests are in geometry and topology. Outside of my academic pursuits, I also enjoy sports such as table tennis, volleyball, and badminton.
+I am an undergraduate student of the 2023 class at the [School of Mathematical Sciences](http://en.math.nankai.edu.cn/),[Nankai University](https://en.nankai.edu.cn/).
 
 **QQ** : 3545106377
 
