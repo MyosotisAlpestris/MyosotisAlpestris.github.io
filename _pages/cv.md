@@ -26,6 +26,14 @@ Award Record
 Courses Taken and Seminars
 ------
 
+### Fall 2025
+
+* **Foundation of Information Theory** 光炫
+* **Modern Cryptography** 吴亚男
+* **Numerical Analysis** 吴春林, 赵志勇
+* **Functional Analysis** 李磊
+* **Partial Differential Equations** 魏雅薇
+
 ### Spring 2025       
 
 ##### <u>Courses</u>          
