@@ -19,8 +19,6 @@ Award Record
 
 * **2024**年获得陈省身智德奖学金.  
 
-* **2022**年全国中学生物理竞赛复赛一等奖, 江西省排33.
-
 
 
 Courses Taken and Seminars
