@@ -65,13 +65,9 @@ Courses Taken and Seminars
 Online Courses Taken
 ------
 
-### Summer Break 2025
-* **[Nearly K&auml;hler Geometry](https://bimsa.net/activity/kahgeo/)**, lecturer: Kotaro Kawai
 
 ### Spring 2025               
 * **[Basics of Differential Geometry 2](https://bimsa.net/activity/BasofdifgeoII/)**, lecturer: Kotaro Kawai
-* **[An Introduction to Homological Algebra](https://bimsa.net/activity/AninttoHomAlg/)**, lecturer: Beihui Yuan
-
 
 
 
