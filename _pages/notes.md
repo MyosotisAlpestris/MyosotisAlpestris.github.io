@@ -18,8 +18,8 @@ Geometry and Topology           
     * [Note](http://MyosotisAlpestris.github.io/files/differential_topology.pdf), based on [this course](https://www.youtube.com/playlist?list=PLo4jXE-LdDTQIrmgxcuLO9w5n6AdiltQo). 
 
 
-* ### Riemannian Geometry                  
-    * This is my [solution](http://MyosotisAlpestris.github.io/files/Lee_Riem_Geo.pdf) for some problems in Lee's *Introduction to Riemannian Manifold*.
+* ### Symplectic Geometry                  
+    * This is my [note](http://MyosotisAlpestris.github.io/files/symplectic_geo.pdf) taken during the 2025 Spring Symplectic Geometry course in Nankai.
 
 * ### Differential Geometry
     * This is the [note](http://MyosotisAlpestris.github.io/files/BODG2.pdf) taken during the [course](https://bimsa.net/activity/BasofdifgeoII/), which is about principal bundles and characteristic classes.
