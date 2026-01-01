@@ -50,7 +50,63 @@ $sidebar-screen-min-width   : 1024px;
 $sidebar-link-max-width     : 250px;
 
 
+/*
+   Colors
+   ========================================================================== */
 
+$gray                       : #8b949e;
+$dark-gray                  : #c9d1d9;
+$darker-gray                : #f0f6fc;
+$light-gray                 : #30363d;
+$lighter-gray               : #21262d;
+
+/* 核心背景与文字 - 深色模式 */
+$body-color                 : #0d1117 !default;
+$background-color           : #0d1117 !default;
+$code-background-color      : #161b22 !default;
+$code-background-color-dark : #000 !default;
+$text-color                 : #c9d1d9 !default;
+$border-color               : #30363d !default;
+
+/* 状态颜色 - 必须全部保留，否则会报 Undefined variable 错误 */
+$primary-color              : #7a8288 !default;
+$success-color              : #3fb950 !default;
+$warning-color              : #d29922 !default;  /* 就是这一行之前可能丢了 */
+$danger-color               : #f85149 !default;
+$info-color                 : #58a6ff !default;
+
+/* Brands */
+$behance-color              : #1769FF;
+$bluesky-color              : #1184fe;
+$dribbble-color             : #ea4c89;
+$facebook-color             : #3b5998;
+$flickr-color               : #ff0084;
+$foursquare-color           : #0072b1;
+$github-color               : #f0f6fc;
+$google-plus-color          : #dd4b39;
+$instagram-color            : #517fa4;
+$kaggle-color               : #20c0ff;
+$lastfm-color               : #d51007;
+$linkedin-color             : #007bb6;
+$mastodon-color             : #6364ff;
+$orcid-color                : #a6ce39;
+$pinterest-color            : #cb2027;
+$rss-color                  : #fa9b39;
+$soundcloud-color           : #ff3300;
+$stackoverflow-color        : #fe7a15;
+$tumblr-color               : #32506d;
+$twitter-color              : #55acee;
+$vimeo-color                : #1ab7ea;
+$vine-color                 : #00bf8f;
+$youtube-color              : #bb0000;
+$xing-color                 : #006567;
+
+/* Links */
+$link-color                 : #58a6ff !default;
+$link-color-hover           : mix(#fff, $link-color, 20%) !default;
+$link-color-visited         : mix(#000, $link-color, 15%) !default;
+$masthead-link-color        : $text-color !default;
+$masthead-link-color-hover  : #58a6ff !default;
 
 
 
