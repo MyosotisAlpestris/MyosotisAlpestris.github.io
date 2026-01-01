@@ -12,34 +12,16 @@ permalink: /tex-preview/
 
 ### Code Display
 
-<pre style="padding: 15px; border: 1px solid #888; border-radius: 5px; overflow: auto; max-height: 600px; background: transparent; color: inherit; font-family: monospace; white-space: pre-wrap;">
-<code id="latex-code">准备抓取文件...</code>
-</pre>
+<pre style="background: transparent; color: inherit; padding: 15px; border: 1px solid #888; overflow: auto; max-height: 600px;"><code id="latex-code">正在加载代码内容...</code></pre>
 
+<!-- 用 JavaScript 抓取文件内容 -->
 <script>
-  // 使用 window.location.origin 确保绝对路径从网站根目录开始
-  const targetPath = window.location.origin + "/files/note_2.tex";
-  const displayElement = document.getElementById('latex-code');
-
-  displayElement.textContent = "正在连接服务器: " + targetPath;
-
-  fetch(targetPath)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error("服务器返回错误 " + response.status + " (请检查文件是否存在)");
-      }
-      return response.text();
-    })
+  fetch('/files/note_2.tex')
+    .then(response => response.text())
     .then(data => {
-      if (data.trim().length === 0) {
-        displayElement.textContent = "文件内容为空。";
-      } else {
-        displayElement.textContent = data;
-      }
+      document.getElementById('latex-code').textContent = data;
     })
-    .catch(error => {
-      // 如果出错，把错误直接打在屏幕上，不再卡在“加载中”
-      displayElement.textContent = "❌ 加载失败！原因: " + error.message;
-      console.error(error);
+    .catch(err => {
+      document.getElementById('latex-code').textContent = "加载失败，请检查文件路径是否正确。";
     });
 </script>
