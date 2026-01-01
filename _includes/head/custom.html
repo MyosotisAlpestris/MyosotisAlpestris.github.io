@@ -30,3 +30,52 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <!-- end custom head snippets -->
+
+<style>
+  /* 强制深色背景和浅色文字 */
+  body {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
+
+  /* 侧边栏和中间内容区域 */
+  .sidebar, .page__content, .archive, .masthead, .page__footer {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
+
+  /* 标题颜色 */
+  h1, h2, h3, h4, h5, h6 {
+    color: #f0f6fc !important;
+  }
+
+  /* 链接颜色 */
+  a {
+    color: #58a6ff !important;
+  }
+
+  /* 导航栏文字 */
+  .masthead__menu-item a {
+    color: #c9d1d9 !important;
+  }
+
+  /* 代码块背景 */
+  div.highlighter-rouge, figure.highlight, code {
+    background-color: #161b22 !important;
+    color: #e6edf3 !important;
+    border: 1px solid #30363d !important;
+  }
+
+  /* 侧边栏姓名和介绍 */
+  .author__name, .author__bio, .author__urls-wrapper button {
+    color: #f0f6fc !important;
+  }
+
+  /* 图片亮度微调（可选，防止白底图太刺眼） */
+  img {
+    filter: brightness(0.8);
+  }
+  .author__avatar {
+    filter: none !important; /* 头像不调暗 */
+  }
+</style>
