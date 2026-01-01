@@ -12,52 +12,36 @@ permalink: /tex-preview/
 
 ### Code Display
 
-<!-- 使用系统自动适配的配色方案 -->
+<!-- 样式部分：只做透明度处理，不写死颜色，这样就会自动跟随你的深色主题 -->
 <style>
-  #latex-display-container {
-    width: 100%;
-    margin: 1em 0;
-    padding: 1.5em;
-    /* 关键：使用 currentColor 和继承背景，或者设置透明背景 */
-    background: rgba(128, 128, 128, 0.05); 
+  .my-code-box {
+    background: rgba(128, 128, 128, 0.1); /* 半透明背景，深浅色通用 */
+    color: inherit;                       /* 强制继承主题的文字颜色 */
+    padding: 15px;
     border: 1px solid rgba(128, 128, 128, 0.3);
-    border-radius: 8px;
-    
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.9em;
-    line-height: 1.5;
-    
+    border-radius: 6px;
     overflow: auto;
-    max-height: 70vh;
-    white-space: pre-wrap;
-    word-break: break-all;
-    
-    /* 自动跟随主题文字颜色 */
-    color: inherit; 
+    max-height: 600px;
+    font-family: monospace;
+    white-space: pre;                     /* 保持代码缩进 */
+    display: block;
   }
 </style>
 
-<pre id="latex-display-container"><code id="latex-code">正在加载代码内容...</code></pre>
+<pre class="my-code-box"><code id="latex-code">正在加载内容...</code></pre>
 
 <script>
-  // 放弃复杂的 baseurl，直接使用相对于根目录的绝对路径
-  const filePath = "/files/note_2.tex"; 
-  
-  console.log("正在尝试抓取文件:", filePath); // 在控制台打印路径，方便调试
-
-  fetch(filePath)
+  // 恢复到你之前成功的路径写法
+  fetch('/files/note_2.tex')
     .then(response => {
-      if (!response.ok) {
-        throw new Error('服务器返回了 ' + response.status);
-      }
+      if (!response.ok) throw new Error('Status: ' + response.status);
       return response.text();
     })
     .then(data => {
-      console.log("抓取成功！内容长度:", data.length);
+      // 成功后填入内容
       document.getElementById('latex-code').textContent = data;
     })
     .catch(err => {
-      console.error("抓取失败:", err);
-      document.getElementById('latex-code').textContent = "加载失败: " + err.message;
+      document.getElementById('latex-code').textContent = "加载失败: " + err;
     });
 </script>
