@@ -40,19 +40,24 @@ permalink: /tex-preview/
 <pre id="latex-display-container"><code id="latex-code">正在加载代码内容...</code></pre>
 
 <script>
-  // 自动获取 baseurl 并拼接路径
-  const filePath = "{{ site.baseurl }}/files/note_2.tex";
+  // 放弃复杂的 baseurl，直接使用相对于根目录的绝对路径
+  const filePath = "/files/note_2.tex"; 
   
+  console.log("正在尝试抓取文件:", filePath); // 在控制台打印路径，方便调试
+
   fetch(filePath)
     .then(response => {
-      if (!response.ok) throw new Error('无法连接到文件 (404)');
+      if (!response.ok) {
+        throw new Error('服务器返回了 ' + response.status);
+      }
       return response.text();
     })
     .then(data => {
-      // textContent 会保留所有的 LaTeX 反斜杠和括号，且不会被误当作 HTML
+      console.log("抓取成功！内容长度:", data.length);
       document.getElementById('latex-code').textContent = data;
     })
     .catch(err => {
+      console.error("抓取失败:", err);
       document.getElementById('latex-code').textContent = "加载失败: " + err.message;
     });
 </script>
