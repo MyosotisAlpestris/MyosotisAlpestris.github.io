@@ -1,0 +1,295 @@
+\documentclass[a4paper,oneside,11pt]{article}
+% --- 0. 模式切换开关 ---
+\newif\ifdarkmode
+\darkmodetrue % 想要导出白色版本时，只需将此处改为 \darkmodefalse
+
+% --- 1. 基础宏包加载 ---
+\usepackage{ctex}
+\usepackage{lipsum}
+\usepackage{amsmath, amsthm, amssymb, amsfonts, mathrsfs, mathtools}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\graphicspath{{./figures/}}
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz-cd}
+\usepackage{circuitikz}
+\usepackage{titlesec}
+\usepackage{fancyhdr}  
+\usepackage{enumitem}
+
+
+% 加载 TikZ 库
+\usetikzlibrary{positioning, arrows.meta, calc}
+\tcbuselibrary{theorems, breakable}
+
+% --- 2. 核心模式切换逻辑 ---
+\ifdarkmode
+% === 深色模式环境 ===
+\pagecolor[rgb]{0.17, 0.17, 0.17} 
+\color[rgb]{0.92, 0.92, 0.92}     
+\colorlet{PageColor}{black!83}  
+
+% 深色系超链接
+\usepackage{hyperref}
+\hypersetup{hidelinks, colorlinks=true, linkcolor=cyan, citecolor=green!60, urlcolor=cyan, pdfstartview=Fit, breaklinks=true}
+
+% 深色系定理环境颜色方案
+\colorlet{LightGray}{black!77} 
+\colorlet{LightOrange}{Orange!12!black!98}
+\colorlet{LightGreen}{Green!12!black!97}
+\colorlet{Lightblue}{Blue!12!black!97}
+\colorlet{Lightpurple}{Purple!12!black!97}
+\colorlet{LightRed}{Red!12!black!98}
+\colorlet{LightYellow}{Yellow!12!black!97}
+\colorlet{LightCyan}{Cyan!12!black!97}
+
+% 深色模式下的 TikZ 节点样式
+\tikzset{
+	treenode/.style = {align=center, inner sep=3pt, font=\sffamily},
+	arn_n/.style = {treenode, circle, PageColor, draw=., fill=., text width=2.5em, font=\sffamily\bfseries},
+	arn_x/.style = {treenode, rectangle, draw=.}
+}
+\else
+% === 浅色模式环境 ===
+\pagecolor{white}
+\color{black}
+\colorlet{PageColor}{white}
+
+% 浅色系超链接
+\usepackage{hyperref}
+\hypersetup{hidelinks, colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue, pdfstartview=Fit, breaklinks=true}
+
+% 浅色系定理环境颜色方案
+\colorlet{LightGray}{White!90!Periwinkle}
+\colorlet{LightOrange}{Orange!15}
+\colorlet{LightGreen}{Green!15}
+\colorlet{Lightblue}{Blue!15}
+\colorlet{Lightpurple}{Purple!15}
+\colorlet{LightRed}{Red!15}
+\colorlet{LightYellow}{Yellow!15}
+\colorlet{LightCyan}{Cyan!15}
+
+% 浅色模式下的 TikZ 节点样式
+\tikzset{
+	treenode/.style = {align=center, inner sep=3pt, font=\sffamily},
+	arn_n/.style = {treenode, circle, white, draw=black, fill=black, text width=2.5em, font=\sffamily\bfseries},
+	arn_x/.style = {treenode, rectangle, draw=black}
+}
+\fi
+
+\usepackage[nameinlink]{cleveref}
+
+% --- 3. 页面布局与通用样式 ---
+\geometry{a4paper, margin=1in}
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyhead[C]{\leftmark} 
+\fancyfoot[C]{\thepage} 
+\setlength\headwidth{\textwidth}
+
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
+\setitemize[1]{itemsep=4pt,partopsep=4pt,parsep=\parskip,topsep=4pt} 
+\setstretch{1.22}
+\setlength{\parindent}{1.5em}
+\allowdisplaybreaks
+\numberwithin{equation}{section}
+
+% 全局 tcolorbox 设置
+\tcbset{colupper=.}
+
+% --- 4. 定理环境定义 (保留你的自动 Label 钩子逻辑) ---
+\makeatletter
+\newcommand{\autolabelhook}{\ifx\thmt@shortoptarg\@empty\else\label{\thmt@shortoptarg}\fi}
+
+% 通用样式模板
+\declaretheoremstyle[
+headpunct={.},
+headformat=\NAME\ \NUMBER \NOTE,
+postheadhook=\autolabelhook
+]{mainstyle}
+
+% 批量定义所有环境
+\declaretheorem[style=mainstyle,numberwithin=section,name=Theorem]{theorem}
+\tcolorboxenvironment{theorem}{colback=LightGray, breakable}
+
+\declaretheorem[style=mainstyle,numberwithin=section,name=Definition]{definition}
+\tcolorboxenvironment{definition}{colback=LightCyan, breakable}
+
+\declaretheorem[style=mainstyle,numberwithin=section,name=Lemma]{lemma}
+\tcolorboxenvironment{lemma}{colback=Lightblue, breakable}
+
+\declaretheorem[style=mainstyle,numberwithin=section,name=Remark]{remark}
+\tcolorboxenvironment{remark}{colback=LightRed, breakable}
+
+\declaretheorem[style=mainstyle,numberwithin=section,name=Example]{example}
+\tcolorboxenvironment{example}{colback=LightGreen, breakable}
+
+\declaretheorem[style=mainstyle,numberwithin=section,name=Proposition]{proposition}
+\tcolorboxenvironment{proposition}{colback=LightOrange, breakable}
+
+\declaretheorem[style=mainstyle,numberwithin=section,name=Exercise]{exercise}
+\tcolorboxenvironment{exercise}{colback=LightYellow, breakable}
+
+\declaretheorem[style=mainstyle,numberwithin=section,name=Corollary]{corollary}
+\tcolorboxenvironment{corollary}{colback=Lightpurple, breakable}
+\makeatother
+
+% --- 5. 公式间距调整 ---
+\makeatletter
+\g@addto@macro\normalsize{%
+	\setlength{\abovedisplayskip}{6pt plus 2pt minus 2pt} 
+	\setlength{\belowdisplayskip}{6pt plus 2pt minus 2pt} 
+}
+\makeatother
+
+% --- 4. 其他样式设置 ---
+\titleformat{\part}[display]
+{\centering\normalfont\Huge\bfseries}{\partname\ \thepart}{20pt}{\Huge} 
+
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\newenvironment{solution}{{\noindent\it Solution.} }{\hfill $\square$\par}
+
+
+%自定义命令
+\newcommand{\id}{\operatorname{id}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\EE}{\mathbb{E}}
+\newcommand{\Prob}{\text{Pr}}
+\newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\GL}{\mathrm{GL}}
+\newcommand{\mO}{\mathrm{O}}
+\newcommand{\U}{\mathrm{U}}
+\newcommand{\SL}{\mathrm{SL}}
+\newcommand{\SU}{\mathrm{SU}}
+\newcommand{\SO}{\mathrm{SO}}
+\newcommand{\g}{\mathfrak{g}}
+\newcommand{\h}{\mathfrak{h}}
+\newcommand{\fsp}{\mathfrak{sp}}
+\newcommand{\fgl}{\mathfrak{gl}}
+\newcommand{\foo}{\mathfrak{o}}
+\newcommand{\fu}{\mathfrak{u}}
+\newcommand{\fsl}{\mathfrak{sl}}
+\newcommand{\fsu}{\mathfrak{su}}
+\newcommand{\fso}{\mathfrak{so}}
+\newcommand{\End}{\mathrm{End}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\ad}{\operatorname{ad}}
+\newcommand{\Ad}{\operatorname{Ad}}
+\newcommand{\pr}{\operatorname{pr}}
+\newcommand{\indep}{\perp \!\!\! \perp}
+\newcommand{\calX}{\mathcal{X}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\set}[1]{\mathcal{#1}}
+\newcommand{\calY}{\mathcal{Y}}
+\newcommand{\calC}{\mathcal{C}}
+
+
+
+\begin{document}
+	
+	% ------------------------------------------------------------------------------
+	% Cover Page and ToC
+	% ------------------------------------------------------------------------------
+	
+	\title{ \normalsize \textsc{}
+		\\ [2.0cm]
+		\HRule{1.5pt} \\
+		\LARGE \textbf{\uppercase{Note Temple}
+			\HRule{2.0pt} \\ [0.6cm] \LARGE{Notes of } \vspace*{10\baselineskip}}
+	}
+	\date{\today}
+	\author{\textbf{Author} \\ 
+		}
+	
+	\maketitle
+	\thispagestyle{empty}
+	\newpage
+	
+	\tableofcontents
+	\setcounter{page}{1}
+	\newpage
+	
+	% ------------------------------------------------------------------------------
+	\setcounter{page}{1}
+	
+
+	
+	\section{A}
+	
+	\subsection{A}
+	
+	\begin{definition}
+		A
+	\end{definition}
+	
+	\begin{example}
+		A
+	\end{example}
+	
+	\begin{solution}
+		A
+	\end{solution}
+	
+	\begin{theorem}
+		A
+	\end{theorem}
+	
+	\begin{proof}
+		A
+	\end{proof}
+	
+	\begin{lemma}
+		A
+	\end{lemma}
+	
+	\begin{corollary}
+		A
+	\end{corollary}
+	
+	\begin{remark}
+		A
+	\end{remark}
+	
+	\begin{exercise}
+		
+	\end{exercise}
+	
+	\begin{proposition}
+		1
+		
+		2
+	\end{proposition}
+	
+	\subsection{B}
+
+	1111
+	
+	\[\id \CC \RR\QQ\ZZ\Sp\GL\mO\U\SL\SU\SO\g\h\fsp\fgl\foo\fu\fsl\fsu\fso\]
+	
+	
+	
+	\newpage
+	
+	% ------------------------------------------------------------------------------
+	% Reference and Cited Works
+	% ------------------------------------------------------------------------------
+	
+	\bibliographystyle{IEEEtran}
+	\bibliography{}
+	
+	
+	% ------------------------------------------------------------------------------
+	
+\end{document}
