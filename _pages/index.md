@@ -12,36 +12,34 @@ permalink: /tex-preview/
 
 ### Code Display
 
-<!-- 样式部分：只做透明度处理，不写死颜色，这样就会自动跟随你的深色主题 -->
-<style>
-  .my-code-box {
-    background: rgba(128, 128, 128, 0.1); /* 半透明背景，深浅色通用 */
-    color: inherit;                       /* 强制继承主题的文字颜色 */
-    padding: 15px;
-    border: 1px solid rgba(128, 128, 128, 0.3);
-    border-radius: 6px;
-    overflow: auto;
-    max-height: 600px;
-    font-family: monospace;
-    white-space: pre;                     /* 保持代码缩进 */
-    display: block;
-  }
-</style>
-
-<pre class="my-code-box"><code id="latex-code">正在加载内容...</code></pre>
+<pre style="padding: 15px; border: 1px solid #888; border-radius: 5px; overflow: auto; max-height: 600px; background: transparent; color: inherit; font-family: monospace; white-space: pre-wrap;">
+<code id="latex-code">准备抓取文件...</code>
+</pre>
 
 <script>
-  // 恢复到你之前成功的路径写法
-  fetch('/files/note_2.tex')
+  // 使用 window.location.origin 确保绝对路径从网站根目录开始
+  const targetPath = window.location.origin + "/files/note_2.tex";
+  const displayElement = document.getElementById('latex-code');
+
+  displayElement.textContent = "正在连接服务器: " + targetPath;
+
+  fetch(targetPath)
     .then(response => {
-      if (!response.ok) throw new Error('Status: ' + response.status);
+      if (!response.ok) {
+        throw new Error("服务器返回错误 " + response.status + " (请检查文件是否存在)");
+      }
       return response.text();
     })
     .then(data => {
-      // 成功后填入内容
-      document.getElementById('latex-code').textContent = data;
+      if (data.trim().length === 0) {
+        displayElement.textContent = "文件内容为空。";
+      } else {
+        displayElement.textContent = data;
+      }
     })
-    .catch(err => {
-      document.getElementById('latex-code').textContent = "加载失败: " + err;
+    .catch(error => {
+      // 如果出错，把错误直接打在屏幕上，不再卡在“加载中”
+      displayElement.textContent = "❌ 加载失败！原因: " + error.message;
+      console.error(error);
     });
 </script>
