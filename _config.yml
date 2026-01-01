@@ -357,3 +357,6 @@ compress_html:
 markdown: kramdown
 mathjax: true
 
+include:
+  - files
+
