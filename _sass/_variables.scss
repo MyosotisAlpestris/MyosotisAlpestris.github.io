@@ -51,38 +51,35 @@ $sidebar-link-max-width     : 250px;
 
 
 
-/*
+/* ==========================================================================
    Colors
    ========================================================================== */
 
 $gray                       : #8b949e;
-$dark-gray                  : #c9d1d9;    // 浅灰色，用于主要文字
-$darker-gray                : #f0f6fc;    // 接近白色，用于标题
-$light-gray                 : #30363d;    // 深灰色，用于边框
-$lighter-gray               : #21262d;    // 更深的灰，用于背景偏色
+$dark-gray                  : #c9d1d9; 
+$darker-gray                : #f0f6fc;
+$light-gray                 : #30363d;
+$lighter-gray               : #21262d;
 
-$body-color                 : #0d1117;    // 整个页面的背景色 (GitHub Dark 风格)
-$background-color           : #0d1117;    // 内容区域背景色
-$code-background-color      : #161b22;    // 代码块背景色
+/* 核心背景与文字 - 确保这几个变量名和你原本的文件一致 */
+$body-color                 : #0d1117; // 页面背景
+$background-color           : #0d1117; // 内容背景
+$code-background-color      : #161b22;
 $code-background-color-dark : #000;
-$text-color                 : #c9d1d9;    // 主要文字颜色
-$border-color               : #30363d;    // 分割线颜色
+$text-color                 : #c9d1d9; // 文字颜色
+$border-color               : #30363d; // 边框颜色
 
 $primary-color              : #8b949e;
 $success-color              : #3fb950;
 $warning-color              : #d29922;
 $danger-color               : #f85149;
-$info-color                 : #58a6ff;    // 亮蓝色，适合深色背景
+$info-color                 : #58a6ff;
 
-/* brands - 保持默认或根据需要微调 */
-$github-color               : #f0f6fc;
-/* ... 其他 brand 颜色可以不改 ... */
-
-/* links */
-$link-color                 : #58a6ff;    // 链接颜色改为亮蓝色
-$link-color-hover           : mix(#fff, $link-color, 20%); // 悬停时变亮
+/* Links */
+$link-color                 : #58a6ff;
+$link-color-hover           : mix(#fff, $link-color, 20%);
 $link-color-visited         : mix(#000, $link-color, 15%);
-$masthead-link-color        : $text-color;
+$masthead-link-color        : #c9d1d9;
 $masthead-link-color-hover  : #58a6ff;
 
 
