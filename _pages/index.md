@@ -11,6 +11,17 @@ permalink: /tex-preview/
 ---
 
 ### Code Display
+<!-- 定义一个用来放代码的框 -->
+<pre style="background: #f4f4f4; padding: 15px; border: 1px solid #ddd; overflow: auto; max-height: 600px;"><code id="latex-code">正在加载代码内容...</code></pre>
 
-```latex
-{% include note_2.tex %}
+<!-- 用 JavaScript 抓取文件内容 -->
+<script>
+  fetch('/files/note_2.tex')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('latex-code').textContent = data;
+    })
+    .catch(err => {
+      document.getElementById('latex-code').textContent = "加载失败，请检查文件路径是否正确。";
+    });
+</script>
