@@ -51,36 +51,7 @@ $sidebar-link-max-width     : 250px;
 
 
 
-/* ==========================================================================
-   Colors
-   ========================================================================== */
 
-$gray                       : #8b949e;
-$dark-gray                  : #c9d1d9; 
-$darker-gray                : #f0f6fc;
-$light-gray                 : #30363d;
-$lighter-gray               : #21262d;
-
-/* 核心背景与文字 - 确保这几个变量名和你原本的文件一致 */
-$body-color                 : #0d1117; // 页面背景
-$background-color           : #0d1117; // 内容背景
-$code-background-color      : #161b22;
-$code-background-color-dark : #000;
-$text-color                 : #c9d1d9; // 文字颜色
-$border-color               : #30363d; // 边框颜色
-
-$primary-color              : #8b949e;
-$success-color              : #3fb950;
-$warning-color              : #d29922;
-$danger-color               : #f85149;
-$info-color                 : #58a6ff;
-
-/* Links */
-$link-color                 : #58a6ff;
-$link-color-hover           : mix(#fff, $link-color, 20%);
-$link-color-visited         : mix(#000, $link-color, 15%);
-$masthead-link-color        : #c9d1d9;
-$masthead-link-color-hover  : #58a6ff;
 
 
 /*
