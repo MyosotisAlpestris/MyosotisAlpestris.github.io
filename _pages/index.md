@@ -13,6 +13,4 @@ permalink: /tex-preview/
 ### Code Display
 
 ```latex
-{% raw %}
 {% include note_2.tex %}
-{% endraw %}
