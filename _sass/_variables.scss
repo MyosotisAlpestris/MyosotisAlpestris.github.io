@@ -55,58 +55,35 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       : #8b949e;
+$dark-gray                  : #c9d1d9;    // 浅灰色，用于主要文字
+$darker-gray                : #f0f6fc;    // 接近白色，用于标题
+$light-gray                 : #30363d;    // 深灰色，用于边框
+$lighter-gray               : #21262d;    // 更深的灰，用于背景偏色
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$body-color                 : #0d1117;    // 整个页面的背景色 (GitHub Dark 风格)
+$background-color           : #0d1117;    // 内容区域背景色
+$code-background-color      : #161b22;    // 代码块背景色
+$code-background-color-dark : #000;
+$text-color                 : #c9d1d9;    // 主要文字颜色
+$border-color               : #30363d;    // 分割线颜色
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
+$primary-color              : #8b949e;
+$success-color              : #3fb950;
+$warning-color              : #d29922;
+$danger-color               : #f85149;
+$info-color                 : #58a6ff;    // 亮蓝色，适合深色背景
 
-/* brands */
-$behance-color              : #1769FF;
-$bluesky-color              : #1184fe;
-$dribbble-color             : #ea4c89;
-$facebook-color             : #3b5998;
-$flickr-color               : #ff0084;
-$foursquare-color           : #0072b1;
-$github-color               : #171516;
-$google-plus-color          : #dd4b39;
-$instagram-color            : #517fa4;
-$kaggle-color               : #20c0ff;
-$lastfm-color               : #d51007;
-$linkedin-color             : #007bb6;
-$mastodon-color             : #6364ff;
-$orcid-color                : #a6ce39;
-$pinterest-color            : #cb2027;
-$rss-color                  : #fa9b39;
-$soundcloud-color           : #ff3300;
-$stackoverflow-color        : #fe7a15;
-$tumblr-color               : #32506d;
-$twitter-color              : #55acee;
-$vimeo-color                : #1ab7ea;
-$vine-color                 : #00bf8f;
-$youtube-color              : #bb0000;
-$xing-color                 : #006567;
-
+/* brands - 保持默认或根据需要微调 */
+$github-color               : #f0f6fc;
+/* ... 其他 brand 颜色可以不改 ... */
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : #58a6ff;    // 链接颜色改为亮蓝色
+$link-color-hover           : mix(#fff, $link-color, 20%); // 悬停时变亮
+$link-color-visited         : mix(#000, $link-color, 15%);
+$masthead-link-color        : $text-color;
+$masthead-link-color-hover  : #58a6ff;
 
 
 /*
