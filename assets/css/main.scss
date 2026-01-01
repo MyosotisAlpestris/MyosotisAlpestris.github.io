@@ -39,3 +39,19 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* 降低深色模式下图片的亮度 */
+img {
+  filter: brightness(0.8) contrast(1.1);
+  transition: filter 0.2s ease-in-out;
+}
+
+/* 鼠标悬停时恢复亮度 */
+img:hover {
+  filter: brightness(1);
+}
+
+/* 专门处理头像，防止头像变暗 */
+.author__avatar {
+  filter: none !important;
+}
