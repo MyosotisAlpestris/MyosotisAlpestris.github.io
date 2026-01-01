@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-**<u>This page collects some of my notes. Some large files provide a Baidu Cloud link, and the extraction code is 0723.</u>** The template for my notes is [here](http://MyosotisAlpestris.github.io/index.md).
+**<u>This page collects some of my notes. Some large files provide a Baidu Cloud link, and the extraction code is 0723.</u>** The template for my notes is [here](http://MyosotisAlpestris.github.io/index.html).
 
 Geometry and Topology           
 ------
