@@ -30,12 +30,14 @@
 \usetikzlibrary{positioning, arrows.meta, calc}
 \tcbuselibrary{theorems, breakable}
 
-% --- 2. 核心模式切换逻辑 ---
+% --- 2. 核心模式切换逻辑 (完全保留你的颜色数值) ---
 \ifdarkmode
 % === 深色模式环境 ===
 \pagecolor[rgb]{0.17, 0.17, 0.17} 
 \color[rgb]{0.92, 0.92, 0.92}     
 \colorlet{PageColor}{black!83}  
+\definecolor{TextGray}{rgb}{0.92, 0.92, 0.92}
+\colorlet{TextColor}{TextGray}
 
 % 深色系超链接
 \usepackage{hyperref}
@@ -54,7 +56,7 @@
 % 深色模式下的 TikZ 节点样式
 \tikzset{
 	treenode/.style = {align=center, inner sep=3pt, font=\sffamily},
-	arn_n/.style = {treenode, circle, PageColor, draw=., fill=., text width=2.5em, font=\sffamily\bfseries},
+	arn_n/.style = {treenode, circle, TextColor, draw=., text width=2.5em, font=\sffamily\bfseries},
 	arn_x/.style = {treenode, rectangle, draw=.}
 }
 \else
@@ -80,7 +82,7 @@
 % 浅色模式下的 TikZ 节点样式
 \tikzset{
 	treenode/.style = {align=center, inner sep=3pt, font=\sffamily},
-	arn_n/.style = {treenode, circle, white, draw=black, fill=black, text width=2.5em, font=\sffamily\bfseries},
+	arn_n/.style = {treenode, circle, black, draw=black, text width=2.5em, font=\sffamily\bfseries},
 	arn_x/.style = {treenode, rectangle, draw=black}
 }
 \fi
